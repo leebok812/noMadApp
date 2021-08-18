@@ -8,3 +8,4 @@ https://nomadcoders.co/ <br>
 5. Conditionals<br>
 6. HTML in Javascript<br>
 7. Searching For Elements<br>
+8. Events part one<br>
