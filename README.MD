@@ -7,3 +7,4 @@ https://nomadcoders.co/ <br>
 4. Review<br>
 5. Conditionals<br>
 6. HTML in Javascript<br>
+7. Searching For Elements<br>
