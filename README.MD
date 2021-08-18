@@ -6,3 +6,4 @@ https://nomadcoders.co/ <br>
 3. Functions<br>
 4. Review<br>
 5. Conditionals<br>
+6. HTML in Javascript<br>
