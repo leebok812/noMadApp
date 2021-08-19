@@ -26,3 +26,4 @@ https://nomadcoders.co/ <br>
 23. Timeouts and Dates<br>
 24. PadStart<br>
 25. Quotes<br>
+26. Background<br>
