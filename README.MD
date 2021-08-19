@@ -33,5 +33,6 @@ https://nomadcoders.co/ <br>
 30. Saving ToDos<br>
 31. Loading ToDos part One<br>
 32. Loading ToDos part Two<br>
-33. Deleting TODos part One<br>
+33. Deleting ToDos part One<br>
+34. Deleting ToDos part Two<br>
 
