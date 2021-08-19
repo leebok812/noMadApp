@@ -1,6 +1,9 @@
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 
+const link = document.querySelector("a");
+
+
 function onLoginSubmit (event) {
    // const username = loginInput.value;
    // console.log(username);
@@ -18,5 +21,12 @@ function onLoginSubmit (event) {
     // console.log("Hello", loginInput.value)
 }
 
+// function handleLinkClick (event) {
+//     event.preventDefault(); // 브라우저가 이동하는것을 막음
+    
+// }
+
 
 loginForm.addEventListener("submit", onLoginSubmit);
+
+// link.addEventListener("click",handleLinkClick);
