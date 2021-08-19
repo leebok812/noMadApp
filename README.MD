@@ -24,3 +24,4 @@ https://nomadcoders.co/ <br>
 21. Review<br>
 22. Intervals<br>
 23. Timeouts and Dates<br>
+24. PadStart<br>
