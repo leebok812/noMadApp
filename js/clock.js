@@ -1,7 +1,9 @@
 const clock = document.querySelector("h2#clock");
 
-function sayHello () {
-    console.log("hello");
-}
+function getClock () {
+    const date = new Date();
 
-setInterval(sayHello, 5000)
+    clock.innerText = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+}
+getClock(); // 이게 없으면 1초 뒤에 실행됨
+setInterval(getClock, 1000);
