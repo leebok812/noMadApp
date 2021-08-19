@@ -1,10 +1,13 @@
+const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
-const loginButton = document.querySelector("#login-form button");
 
-function onLoginBtnClick () {
-    const username = loginInput.value;
+function onLoginSubmit (event) {
+   // const username = loginInput.value;
+   // console.log(username);
 
-    console.log(username);
+   event.preventDefault(); // 어떤 event의 기본 행동이 발생되지 않도록 막음 -- 여기서는 form을 submit할경우 새로고침을 막아줌
+   console.log(loginInput.value);
+
 
     // if(username === ""){
     //     alert("Please write your name");
@@ -16,4 +19,4 @@ function onLoginBtnClick () {
 }
 
 
-loginButton.addEventListener("click", onLoginBtnClick);
+loginForm.addEventListener("submit", onLoginSubmit);
